@@ -1,5 +1,7 @@
 window.onload = function() {
 
+    
+
     LoadFromStorage();
 
     var btnAdd = document.getElementById("btnAdd");
