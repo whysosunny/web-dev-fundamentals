@@ -1,0 +1,76 @@
+body {
+    background: url('../images/bg_pattern.png');
+    background-repeat: repeat;
+}
+
+header {
+    height: 120px;
+    background: black;
+}
+
+header h1 {
+    font-family: 'Futura', sans-serif;
+    color: #ccc;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main-container {
+    min-height: 650px;
+    padding: 20px;
+    width: 80%;
+    background: rgba(244, 244, 244, 0.76);
+    margin: 0 auto;
+    display: table;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    display: table;
+    background: black;
+    width: 100%;
+}
+
+footer h2{
+    font-family: 'Futura',sans-serif;
+    color: #ccc;
+    font-size: 24px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+p.links {
+
+    text-align: right;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+#newElement {
+    margin-top: 40px;
+    margin-left: 20px;
+    background: black;
+    width: 100px;
+    height: 100px;
+}
+
+input {
+    margin-top: 10px;
+    display: inline !important;
+    max-width: 120px;
+}
+
+.rotate-reset {
+    display: none;
+}
+
+li {
+    font-size: 1.5em;
+}
+
+table {
+    background: white;
+}
+

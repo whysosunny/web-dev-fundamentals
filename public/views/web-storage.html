@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Playground</title>
+    <link href="../libs/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="../styles/main.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="container-fluid">
+    <h1>Web Development Review</h1>
+</header>
+
+
+
+<div class="main-container">
+    <h3>Web Storage APIs</h3>
+
+    <form id="form">
+        <span>Key: </span><input name="key" class="form-control" type="text" id="toStorageKey">
+        <span>Value: </span><input name="value" class="form-control" type="text" id="toStorageValue">
+    </form>
+    <br>
+    <section>
+        <a class="btn btn-default" id="btnAdd">Add to storage</a>
+        <a class="btn btn-default" id="btnRemove">Remove from Storage</a>
+        <a class="btn btn-default" id="btnClear">Clear Storage</a>
+    </section>
+    <br>
+
+    <h4>Current Storage Content: </h4>
+    <div id="storage">
+
+    </div>
+</div>
+
+
+
+
+<footer>
+    <h2>Sunny Bharadwaj</h2>
+    <p class="links"><a href="#">Twitter</a></p>
+</footer>
+
+
+
+
+
+<script src="../scripts/web-storage.js"></script>
+</body>
+</html>
