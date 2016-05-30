@@ -17,12 +17,12 @@ header h1 {
 }
 
 .main-container {
+    display: table;
     min-height: 650px;
     padding: 20px;
     width: 80%;
     background: rgba(244, 244, 244, 0.76);
     margin: 0 auto;
-    display: table;
 }
 
 footer {
@@ -77,3 +77,6 @@ form {
     margin-top: 20px;
 }
 
+.geo-table {
+    margin-top: 20px;
+}
